@@ -104,7 +104,7 @@ async function startUserBot(phoneNumber, isPairing = false) {
             const userJid = dvmsy.user.id.split(":")[0] + "@s.whatsapp.net";
             await dvmsy.sendMessage(userJid, {
                 image: { url: "maria.png" },
-                caption: `╭───────────────⭓\n│ ✅ *𝐷𝐸𝑉 𝑆𝐻𝐴𝐷𝑂𝑊 𝑃𝐴𝐼𝑅 𝑐𝑜𝑛𝑛𝑒𝑐𝑡𝑒́*\n├───────────────\n│ 👤 *User:* ${dvmsy.user.name || 'Bot'}\n│ 🛠️ *Autoload:* Success\n│ 🔥 *Auto-React:* Charnel\n│ 👀 *Auto-Status:* Active\n╰───────────────⭓\n\n> 𝐷𝐸𝑉 𝑆𝐻𝐴𝐷𝑂𝑊 𝑇𝐸𝐶𝐻 ϟ`,
+                caption: `╭───────────────⭓\n│ ✅ *𝙳𝙴𝚅 𝚂𝙷𝙰𝙳𝙾𝚆 𝙿𝙰𝙸𝚁 𝙱𝙾𝚃 𝑐𝑜𝑛𝑛𝑒𝑐𝑡𝑒́*\n├───────────────\n│ 👤 *User:* ${dvmsy.user.name || 'Bot'}\n│ 🛠️ *Autoload:* Success\n│ 🔥 *Auto-React:* Charnel\n│ 👀 *Auto-Status:* Active\n╰───────────────⭓\n\n> 𝙳𝙴𝚅 𝚂𝙷𝙰𝙳𝙾𝚆 𝚃𝙴𝙲𝙷 ϟ`,
             });
         }
     });
@@ -138,7 +138,7 @@ app.get("/", (req, res) => {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>𝐷𝐸𝑉 𝑆𝐻𝐴𝐷𝑂𝑊 𝑃𝐴𝐼𝑅 - 𝙿𝙰𝙽𝙴𝙻</title>
+        <title>𝙳𝙴𝚅 𝚂𝙷𝙰𝙳𝙾𝚆 𝙱𝙾𝚃 - 𝙿𝙰𝙽𝙴𝙻</title>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500;700&display=swap');
             * {
@@ -396,7 +396,7 @@ app.get("/", (req, res) => {
             }
             
             #res::before {
-                content: '📋 CLICK TO COPY';
+                content: '📋 𝙲𝙻𝙸𝚀𝚄𝙴 𝙿𝙾𝚄𝚁 𝙲𝙾𝙿𝙸𝙴𝚁';
                 position: absolute;
                 top: -20px;
                 left: 50%;
@@ -445,21 +445,21 @@ app.get("/", (req, res) => {
         
         <div class="container">
             <div class="box">
-                <h1>𝐷𝐸𝑉 𝑆𝐻𝐴𝐷𝑂𝑊 𝑃𝐴𝐼𝑅</h1>
-                <div class="subtitle">M U L T I - D E V I C E</div>
+                <h1>𝙳𝙴𝚅 𝚂𝙷𝙰𝙳𝙾𝚆 𝙿𝙰𝙸𝚁 𝙱𝙾𝚃</h1>
+                <div class="subtitle">𝙱𝙾𝚃 𝚂𝙸𝚃𝙴 𝙱𝚈 𝙳𝙴𝚅 𝚂𝙷𝙰𝙳𝙾𝚆 𝙰𝙺𝙰𝚃𝚂𝚄𝙺𝙸</div>
                 
                 <div class="input-group">
-                    <label>📱 NUMÉRO WHATSAPP</label>
-                    <input type="text" id="num" placeholder="Ex: 221XXXXXXXX" maxlength="15">
+                    <label>📱 𝙽𝚄𝙼𝙴𝚁𝙾 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿</label>
+                    <input type="text" id="num" placeholder="𝙴𝚡: 221XXXXXXXX" maxlength="15">
                 </div>
                 
                 <button id="btn" onclick="connect()">
-                    <span>⚡ GÉNÉRER LE CODE ⚡</span>
+                    <span>⚡ 𝙶𝙴́𝙽𝙴́𝚁𝙴́ 𝙻𝙴 𝙲𝙾𝙳𝙴 ⚡</span>
                 </button>
                 
                 <div id="loading">
                     <div class="loader"></div>
-                    <div class="loading-text">CRYPTAGE EN COURS...</div>
+                    <div class="loading-text">𝙲𝚁𝚈𝙿𝚃𝙰𝙶𝙴 𝙴𝙽 𝙲𝙾𝚄𝚁𝚂...</div>
                 </div>
                 
                 <div id="res" onclick="copyCode()"></div>
@@ -470,7 +470,7 @@ app.get("/", (req, res) => {
                 </div>
                 
                 <div class="footer">
-                    ⚡ 𝐷𝐸𝑉 𝑆𝐻𝐴𝐷𝑂𝑊 𝑃𝐴𝐼𝑅 SYSTEM V2.0 ⚡
+                    ⚡ 𝙳𝙴𝚅 𝚂𝙷𝙰𝙳𝙾𝚆 𝙱𝙾𝚃 𝚂𝚈𝚂𝚃𝙴́𝙼𝙴 V2.0 ⚡
                 </div>
             </div>
         </div>
@@ -558,7 +558,7 @@ app.get("/", (req, res) => {
                     resBox.style.transform = 'scale(1)';
                 }, 200);
                 
-                alert('✅ Code copié dans le presse-papier !');
+                alert('✅ 𝙲𝙾𝙳𝙴 𝙲𝙾𝙿𝙸𝙴̂ !');
             }
             
             // Auto-formatage du numéro
