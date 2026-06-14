@@ -4,7 +4,7 @@ export default {
     PREFIX: ".",
     
     // Nom du bot
-    BOT_NAME: "饾櫦饾櫚饾殎饾櫢饾櫚 饾殗饾櫝",
+    BOT_NAME: "𝙼𝙸𝙽𝙸 𝙱𝙾𝚃 𝙳𝙴𝚅 𝚂𝙷𝙰𝙳𝙾𝚆",
     
     // Num茅ros des owners (admin)
     OWNERS: [
@@ -21,7 +21,7 @@ export default {
     
     // Messages automatiques
     AUTO_MESSAGES: {
-        WELCOME: "Bienvenue dans le groupe ! 馃帀",
-        GOODBYE: "Au revoir ! 馃憢"
+        WELCOME: "Bienvenue dans le groupe ! 🙃",
+        GOODBYE: "Au revoir ! 😭"
     }
 };
