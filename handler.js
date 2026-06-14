@@ -61,6 +61,45 @@ export default async function handlerCommand(dvmsy, m, msg, chatUpdate, options)
         
         // Handler des commandes
         switch(command) {
+case 'kick':
+    await kick(fullMessage, dvmsy);
+    break;
+
+case 'kickall':
+    await kickall(fullMessage, dvmsy);
+    break;
+
+case 'mute':
+    await mute(fullMessage, dvmsy);
+    break;
+
+case 'unmute':
+    await unmute(fullMessage, dvmsy);
+    break;
+
+case 'add':
+    await add(fullMessage, dvmsy, args);
+    break;
+
+case 'promote':
+    await promote(fullMessage, dvmsy);
+    break;
+
+case 'demote':
+    await demote(fullMessage, dvmsy);
+    break;
+
+case 'tagall':
+    await tagall(fullMessage, dvmsy);
+    break;
+
+case 'link':
+    await link(fullMessage, dvmsy);
+    break;
+
+case 'groupinfo':
+    await groupinfo(fullMessage, dvmsy);
+    break;
 case 'alive':
     await alive(fullMessage, dvmsy);
     break;
