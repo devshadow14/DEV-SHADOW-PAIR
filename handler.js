@@ -1,4 +1,14 @@
 // handler.js
+import kick from './commands/kick.js';
+import kickall from './commands/kickall.js';
+import mute from './commands/mute.js';
+import unmute from './commands/unmute.js';
+import add from './commands/add.js';
+import promote from './commands/promote.js';
+import demote from './commands/demote.js';
+import tagall from './commands/tagall.js';
+import link from './commands/link.js';
+import groupinfo from './commands/groupinfo.js';
 import config from './config.js';
 import ping from './commands/ping.js';
 import menu from './commands/menu.js';
