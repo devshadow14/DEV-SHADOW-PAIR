@@ -1,7 +1,7 @@
 // config.js
 export default {
     // Pr茅fixe du bot
-    PREFIX: "馃懢",
+    PREFIX: ".",
     
     // Nom du bot
     BOT_NAME: "饾櫦饾櫚饾殎饾櫢饾櫚 饾殗饾櫝",
