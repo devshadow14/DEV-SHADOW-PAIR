@@ -6,7 +6,11 @@ import info from './commands/info.js';
 import owner from './commands/owner.js';
 import group from './commands/group.js';
 import { getMessageInfo, getGroupInfo, getUserPermissions } from './Utils/messageUtils.js';
-
+import alive from './commands/alive.js';
+import dice from './commands/dice.js';
+import coinflip from './commands/coinflip.js';
+import repo from './commands/repo.js';
+import ownerinfo from './commands/ownerinfo.js';
 // Rendre config accessible globalement
 global.config = config;
 
@@ -47,6 +51,25 @@ export default async function handlerCommand(dvmsy, m, msg, chatUpdate, options)
         
         // Handler des commandes
         switch(command) {
+case 'alive':
+    await alive(fullMessage, dvmsy);
+    break;
+
+case 'dice':
+    await dice(fullMessage, dvmsy);
+    break;
+
+case 'coinflip':
+    await coinflip(fullMessage, dvmsy);
+    break;
+
+case 'repo':
+    await repo(fullMessage, dvmsy);
+    break;
+
+case 'ownerinfo':
+    await ownerinfo(fullMessage, dvmsy);
+    break;
             // Commandes générales
             case 'ping':
                 await ping(fullMessage, dvmsy);
